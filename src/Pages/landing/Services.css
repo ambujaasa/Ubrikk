@@ -1,0 +1,40 @@
+
+.service{
+   font-size: xx-large;
+   display: flex;
+   flex-direction: rows;
+   margin-top: 50px;
+   box-sizing: border-box;
+   justify-content: space-between;
+   
+}
+.header{
+   text-align: center;
+   font-size: bold;
+   color: brown;
+   background-color: rgb(192, 200, 198);
+   
+}
+.body-content{
+   display: flex;
+   flex-direction:column;
+   box-sizing: border-box;
+   width: 500px;
+   height: 500px;
+  
+   font-size: small;
+}
+.order-list{
+   font-size: x-large;
+   color: crimson;
+   margin-left: 10px;
+}
+.para{
+   font-size: x-large;
+   color: blue;
+   margin-left: 10px;
+}
+.service-img{
+   margin-bottom: 10px;
+   margin-right: 10px;
+}
