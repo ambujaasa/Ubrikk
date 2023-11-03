@@ -21,7 +21,7 @@ function Header() {
 					<Link to='/aboutus'>About Us</Link>
 					<Link to='/products'>Products</Link>
 					<Link to='services'>Services</Link>
-					<Link to='vendors'>Vendors</Link>
+					<Link to='/vendors'>Vendors</Link>
 				</nav>
 			</div>
 

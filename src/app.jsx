@@ -34,7 +34,7 @@ import Loader from 'Pages/landing/Loader';
 import { AboutUs } from 'Pages/landing/AboutUs';
 import { Products } from 'Pages/landing/Products';
 import { Services } from 'Pages/landing/Services';
-import { Vendors } from 'Pages/landing/Vendors';
+{/*import { Vendors } from 'Pages/landing/Vendors';*/}
 
 
 
@@ -65,9 +65,11 @@ const App = () => {
 			<Route path='aboutus' element={<AboutUs/>}/>
 			<Route path='products' element={<Products/>}/>
 			<Route path='services' element={<Services/>}/>
-			<Route path='vendors' element={<Vendors/>}/>
+			
 			<Route path='home' element={<Home/>}></Route>
 			<Route path='orders' element={<Orders/>}></Route>
+			<Route path='vendors' element={<Vendorlist/>}></Route>
+
 			
 			<Route path='drafts' element={<Drafts/>}></Route>
 			<Route path='help' element={<Help/>}></Route>
