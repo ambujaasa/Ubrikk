@@ -13,6 +13,9 @@ import { toast } from 'react-toastify';
 const defaultValues = { full_name: '', email: '', password: '' };
 
 function Signup() {
+	function clickHandle(){
+		window.open("./Signin","_self")
+	}
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
 	const { state } = useLocation();
@@ -44,7 +47,7 @@ function Signup() {
 	}, []);
 
 	return isLoading ? (
-		<p>Loading...</p>
+		window.alert("Your account will be created successfully")
 	) : (
 		<div className='sign-main-div'>
 			<div className='img-div'>
@@ -101,7 +104,7 @@ function Signup() {
 							id='agreeed'
 							checked={agreed}
 							onChange={onChecked}
-						/>{' '}
+						/>
 						<span>
 							I agree to Ubrikk's &nbsp;
 							<Link to='/terms'> terms </Link> &nbsp;and &nbsp;
@@ -111,7 +114,8 @@ function Signup() {
 					<br />
 					<br />
 					<br />
-					<Link to='/singnin'><button>Create Account</button></Link> <br />
+					{/*<Link to='/singnin'>*/}
+					<button onClick={clickHandle}>Create Account</button> <br />
 					<br />
 					<br />
 				</form>

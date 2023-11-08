@@ -7,8 +7,11 @@ export const AboutUs = () => {
 			<div className=''>
 				<h1 className='h'>ABOUTUS</h1>
 			</div>
+			<div>
+				<h3 className='h3'>IT IS A GREAT SHOPPING PLATFORM </h3>
+			</div>
 
-			<div className=''>
+			<div>
 				<h2 className='h2'>UBRIKK PLATFORM</h2>
 
 				<p className='p-1'>

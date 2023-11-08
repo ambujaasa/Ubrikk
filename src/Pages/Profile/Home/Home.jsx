@@ -15,10 +15,18 @@ import order1 from '../../../assets/icons/order1.png'
 import order2 from '../../../assets/icons/order2.png'
 import order3 from '../../../assets/icons/order3.png'
 import order4 from '../../../assets/icons/order4.png'
+import { useNavigate } from 'react-router-dom'
+
 
 function Home() {
+  const navigate=useNavigate()
+	function Clicklogout(){
+		navigate('/')
+	}
   return (
     <>
+    <div>
+      <button className='button' onClick={Clicklogout}>Logout</button></div>
 
       <div className="profile-container">
         <Profileheader />

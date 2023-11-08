@@ -10,6 +10,9 @@ import Bg2 from '../../assets/img/bg2.png';
 import { toast } from 'react-toastify';
 
 function Signin() {
+	function handleClick(){
+		window.open("./Sidebar","_self")
+	}
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
 	const { state } = useLocation();
@@ -38,7 +41,8 @@ function Signin() {
 	}, []);
 
 	return isLoading ? (
-		<p>Loading...</p>
+		window.alert("Login Successfully")
+		
 	) : (
 		<div className='sign-main-div'>
 			<div className='img-div'>
@@ -76,8 +80,8 @@ function Signin() {
 					<br />
 					<br />
 					<br />
-					<Link to='/sidebar'>
-					<button type='submit'>Login</button></Link> <br />
+					{/*<Link to='/sidebar'>*/}
+					<button type='submit' onClick={handleClick}>Login</button> <br />
 					<br />
 					<br />
 				</form>
