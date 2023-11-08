@@ -20,8 +20,11 @@ export const Products = () => {
 			<div className='picture'>
 				<div className='flex-one'>
 					<img src={images.img1} alt='image1' className='img'></img>
+					<div className='label-name'>
+						<label>Bag</label>
+					</div>
 
-					<div className='button'>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -30,7 +33,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img2} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Bag</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -39,7 +45,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img3} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Nameplate</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -48,7 +57,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img4} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Bag</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -57,7 +69,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img5} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Label</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -66,7 +81,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img6} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Car</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -75,7 +93,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img7} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Car</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -84,7 +105,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img8} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Label</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -93,7 +117,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img9} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Nameplate</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>
@@ -102,7 +129,10 @@ export const Products = () => {
 
 				<div className='flex-one'>
 					<img src={images.img10} alt='' className='img'></img>
-					<div className='button'>
+					<div className='label-name'>
+						<label>Car</label>
+					</div>
+					<div className='button-products'>
 						<button type='button' className='btn'>
 							Add to Cart
 						</button>

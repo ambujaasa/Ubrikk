@@ -4,9 +4,17 @@ import { BiListUl, BiRupee } from 'react-icons/bi'
 import Profileheader from '../ProfileHeader/Profileheader';
 import './help.css'
 import Sidebar from '../Sidebar/Sidebar';  
+import { useNavigate } from 'react-router-dom';
 function Help() {
+  const navigate=useNavigate()
+	function Clicklogout(){
+		navigate('/')
+	}
+
   return (
     <div>
+        <div>
+      <button className='button' onClick={Clicklogout}>Logout</button></div>
       <Profileheader />
       <div style={{ position: "absolute", top: "60px", display: "flex", justifyContent: "center", width: "95%" }}>
         <div style={{ margin: "40px" }}>

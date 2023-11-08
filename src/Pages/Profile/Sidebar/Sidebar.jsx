@@ -2,13 +2,11 @@ import React, { useState } from 'react';
 import { HomeFilled, HistoryOutlined, FolderFilled, QuestionCircleFilled, SettingFilled } from '@ant-design/icons'
 import './sidebar.css'
 import {Link, NavLink} from 'react-router-dom'
-function Sidebar(props) {
-  
 
+function Sidebar(props) {
 	return (
-		
 		<div className="menu-bar" >
-			<div className="menu-logo">
+			<div className="menu-logo">		
 				<p>Menu</p>
 			</div>
 		<div className="menu-items">

@@ -11,10 +11,15 @@ import order1 from '../../../assets/icons/order1.png'
 import order2 from '../../../assets/icons/order2.png'
 import order3 from '../../../assets/icons/order3.png'
 import order4 from '../../../assets/icons/order4.png'
+import { useNavigate } from 'react-router-dom';
 
 
 
 function Drafts() {
+  const navigate=useNavigate()
+	function Clicklogout(){
+		navigate('/')
+	}
 
   const [filterDesign, setFilterDesign] = useState("All")
   const switchItems = e => {
@@ -22,9 +27,12 @@ function Drafts() {
   }
 
   return (
+  
 
 
     <div className="profile-container">
+        <div>
+      <button className='button' onClick={Clicklogout}>Logout</button></div>
     <Profileheader />
 
     <div className="profile-body">

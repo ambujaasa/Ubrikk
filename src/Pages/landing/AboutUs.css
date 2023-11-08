@@ -1,11 +1,7 @@
-.body{
+body{
    background: linear-gradient(
-      to left,
-      pink,rgb(107, 159, 107),rgb(181, 181, 105)
-   );
- 
-
-   
+      to right,pink,rgb(161, 191, 161),rgb(108, 108, 128))
+     
 }
 .h{
    color: brown;
@@ -20,9 +16,15 @@
    margin: 0;
    
 }
+.h3{
+   font-size:900px;
+   color: rgb(165, 71, 42);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   margin-top: 20px;
+   
+}
 p-1{
-   color: blueviolet;
    text-align: justify;
-   background-color: antiquewhite;
-   font-size: 20px;
+   font-size: 30px;
 }

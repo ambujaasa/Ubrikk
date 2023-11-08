@@ -6,7 +6,13 @@ import { BsFillShieldLockFill } from 'react-icons/bs'
 import { FaUserAlt, FaBell } from 'react-icons/fa'
 import { MdPayment } from 'react-icons/md' 
 import AccountSetting, { LoginSecurity, Notification, BillingPayment } from './SettingLayout';
+import { useNavigate } from 'react-router-dom';
+
 function Settings() {
+  const navigate=useNavigate()
+	function Clicklogout(){
+		navigate('/')
+	}
 
 
   const [settingMenu, setSettingMenu] = useState("Your account");
@@ -18,6 +24,8 @@ function Settings() {
 
   return (
     <div>
+          <div>
+      <button className='button' onClick={Clicklogout}>Logout</button></div>
       <Profileheader />
       <div style={{ position: "absolute", top: "60px", display: "flex", left: "0", justifyContent: "flex-start", alignItems: "start", width: "100%" }}>
         <div style={{ margin: "40px" }}>
